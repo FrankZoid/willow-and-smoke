@@ -1,0 +1,20 @@
+{
+  "restaurant_name": "Willow & Smoke Kitchen",
+  "one_line_description": "Modern Southern comfort food with wood-fired meats, seasonal sides, and craft cocktails.",
+  "street_address": "2148 West Main Street",
+  "city": "Richmond",
+  "state": "VA",
+  "zip": "23220",
+  "phone": "(804) 555-1847",
+  "email": "hello@willowandsmokekitchen.com",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "4:00 PM - 9:00 PM",
+    "Wednesday": "4:00 PM - 9:00 PM",
+    "Thursday": "4:00 PM - 9:00 PM",
+    "Friday": "4:00 PM - 10:00 PM",
+    "Saturday": "11:00 AM - 10:00 PM",
+    "Sunday": "11:00 AM - 3:00 PM"
+  },
+  "holiday_note": "Holiday hours may vary. Follow us on social media or call ahead for the latest updates."
+}

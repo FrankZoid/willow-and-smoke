@@ -1,0 +1,8 @@
+{
+  "reservation_system": "Resy",
+  "reservation_url": "https://resy.com/cities/richmond-va/venues/willow-and-smoke-kitchen",
+  "reservation_button_text": "Reserve a Table",
+  "online_ordering_system": "Toast",
+  "online_ordering_url": "https://www.toasttab.com/willow-and-smoke-kitchen/v3",
+  "online_ordering_button_text": "Order Online"
+}

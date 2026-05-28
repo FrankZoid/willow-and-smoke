@@ -1,0 +1,19 @@
+{
+  "name": "willow-and-smoke-kitchen",
+  "version": "1.0.0",
+  "description": "Willow & Smoke Kitchen Restaurant Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000"
+  },
+  "keywords": [
+    "restaurant",
+    "willow",
+    "smoke",
+    "kitchen",
+    "richmond",
+    "southern"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}

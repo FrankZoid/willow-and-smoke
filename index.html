@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modern Southern comfort food with wood-fired meats, seasonal sides, and craft cocktails. Willow & Smoke Kitchen is located in Richmond, VA.">
+    <title>Willow & Smoke Kitchen | Modern Southern Comfort Food - Richmond, VA</title>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon (using client logo) -->
+    <link rel="icon" type="image/jpeg" href="logo/willow-and-smoke-logo.jpg">
+</head>
+<body>
+
+    <!-- STICKY HEADER -->
+    <header class="header" id="mainHeader">
+        <div class="header-container">
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav class="nav-container" id="navContainer">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#specials" class="nav-link">Specials</a></li>
+                    <li><a href="#reservations" class="nav-link">Reserve</a></li>
+                    <li><a href="#hours" class="nav-link">Hours</a></li>
+                    <li><a href="#contact" class="nav-link">Find Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <!-- 1. HERO SECTION -->
+        <section class="hero" id="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-content">
+                <h1>Willow & Smoke Kitchen</h1>
+                <p class="hero-tagline">Modern Southern comfort food, wood-fired and made from scratch.</p>
+                <p class="hero-desc">Willow & Smoke Kitchen serves wood-fired meats, seasonal sides, scratch-made desserts, and craft cocktails in a warm neighborhood dining room in Richmond, Virginia.</p>
+                <div class="hero-actions">
+                    <a href="https://resy.com/cities/richmond-va/venues/willow-and-smoke-kitchen" class="btn btn-primary" target="_blank" rel="noopener noreferrer" id="heroPrimaryCTA">Reserve a Table</a>
+                    <a href="#menu" class="btn btn-secondary" id="heroSecondaryCTA">View Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT SECTION -->
+        <section class="about" id="about">
+            <div class="section-container reveal">
+                <div class="about-grid">
+                    <div class="about-img-container">
+                        <img src="images/willow-smoke-dining-room-placeholder.jpg" alt="Willow & Smoke Dining Room Ambiance" class="about-img">
+                    </div>
+                    <div class="about-content">
+                        <span class="about-label">Welcome To Willow & Smoke</span>
+                        <h2>Our Story</h2>
+                        <p class="about-text">Willow & Smoke Kitchen was created around a simple idea: familiar Southern food can feel both comforting and fresh. Our kitchen brings together wood-fired cooking, seasonal ingredients, and scratch-made recipes served in a warm neighborhood setting. Whether you are joining us for a casual dinner, weekend brunch, or drinks with friends, we want every visit to feel relaxed, generous, and memorable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. MENU SECTION -->
+        <section class="menu-section" id="menu">
+            <div class="section-container reveal">
+                <h2 class="section-title">The Menu</h2>
+                <p class="section-subtitle">Wood-fired features, comforting entrees, and seasonal items</p>
+                
+                <div class="menu-card">
+                    <div class="menu-icon">🍽️</div>
+                    <h3>Explore Our Culinary Offerings</h3>
+                    <p>Our kitchen crafts rotating comfort food, smoky barbecue specials, fresh local greens, scratch desserts, and handmade cocktails daily. To view today's options, open or download our full kitchen menu below.</p>
+                    <div class="menu-actions">
+                        <a href="menu/willow-smoke-sample-menu.pdf" class="btn btn-primary js-open-pdf" target="_blank" id="btnViewMenu">View Menu PDF</a>
+                        <a href="menu/willow-smoke-sample-menu.pdf" download class="btn btn-outline" id="btnDownloadMenu">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. FOOD GALLERY SECTION -->
+        <section class="gallery" id="gallery">
+            <div class="section-container reveal">
+                <h2 class="section-title">Food Gallery</h2>
+                <p class="section-subtitle">A glimpse into our kitchen and dining experience</p>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/willow-smoke-brisket-entree-placeholder.jpg" alt="Wood-Fired Beef Brisket Entrée" class="gallery-photo">
+                        <div class="gallery-overlay">
+                            <h3>Wood-Fired Brisket</h3>
+                            <p>Smoked low & slow over hardwood</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="images/willow-smoke-salmon-entree-placeholder.jpg" alt="Pan-Seared Salmon Entrée" class="gallery-photo">
+                        <div class="gallery-overlay">
+                            <h3>Pan-Seared Salmon</h3>
+                            <p>Seasonal herbs & scratch-made glaze</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="images/willow-smoke-craft-cocktail-placeholder.jpg" alt="Handcrafted Cocktail at the Bar" class="gallery-photo">
+                        <div class="gallery-overlay">
+                            <h3>Craft Cocktails</h3>
+                            <p>House infusions & fresh-pressed juices</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="images/willow-smoke-dining-room-placeholder.jpg" alt="Cozy Dining Room Interior" class="gallery-photo">
+                        <div class="gallery-overlay">
+                            <h3>Ambiance</h3>
+                            <p>Warm neighborhood dining room</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SPECIALS SECTION -->
+        <section class="specials" id="specials">
+            <div class="section-container reveal">
+                <h2 class="section-title">Weekly Specials</h2>
+                <p class="section-subtitle">Join us during the week for rotating comfort food specials, wood-fired features, and weekend brunch.</p>
+                
+                <div class="specials-grid">
+                    <!-- Tuesday comfort night -->
+                    <div class="special-card">
+                        <span class="special-badge">Tuesdays</span>
+                        <h3>Tuesday Comfort Night</h3>
+                        <p class="special-desc">Enjoy our rotating Southern comfort entree every Tuesday evening, featuring seasonal recipes from the kitchen.</p>
+                    </div>
+                    
+                    <!-- Thursday Smokehouse Special -->
+                    <div class="special-card">
+                        <span class="special-badge">Thursdays</span>
+                        <h3>Thursday Smokehouse Special</h3>
+                        <p class="special-desc">Join us Thursday nights for a featured wood-fired entree, available while supplies last.</p>
+                    </div>
+                    
+                    <!-- Weekend Brunch -->
+                    <div class="special-card">
+                        <span class="special-badge">Saturday & Sunday</span>
+                        <h3>Weekend Brunch</h3>
+                        <p class="special-desc">Saturday and Sunday brunch features seasonal dishes, fresh-baked cornbread, brunch cocktails, and house-made sweets.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. RESERVATIONS AND ONLINE ORDERING -->
+        <section class="reservations" id="reservations">
+            <div class="section-container reveal">
+                <h2 class="section-title">Reservations & Ordering</h2>
+                <p class="section-subtitle">Secure a table in our dining room or order takeout straight to your home</p>
+                
+                <div class="action-cards">
+                    <!-- Reservation Card -->
+                    <div class="action-card">
+                        <div class="action-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zM14.25 15h.008v.008H14.25V15zm0 2.25h.008v.008H14.25v-.008zM16.5 15h.008v.008H16.5V15zm0 2.25h.008v.008H16.5v-.008z" />
+                            </svg>
+                        </div>
+                        <h3>Table Reservations</h3>
+                        <p>Reserve a table online via Resy for parties up to 6. Walk-ins are always welcome!</p>
+                        <a href="https://resy.com/cities/richmond-va/venues/willow-and-smoke-kitchen" class="btn btn-amber" target="_blank" rel="noopener noreferrer" id="btnResy">Reserve a Table</a>
+                    </div>
+                    
+                    <!-- Ordering Card -->
+                    <div class="action-card">
+                        <div class="action-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                            </svg>
+                        </div>
+                        <h3>Online Ordering</h3>
+                        <p>Quick pickup ordering powered by Toast Tab. Enjoy Southern comfort comfort at home.</p>
+                        <a href="https://www.toasttab.com/willow-and-smoke-kitchen/v3" class="btn btn-primary" target="_blank" rel="noopener noreferrer" id="btnToast">Order Online</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. HOURS SECTION -->
+        <section class="hours-section" id="hours">
+            <div class="section-container reveal">
+                <h2 class="section-title">Hours of Operation</h2>
+                <p class="section-subtitle">Drop by during operational hours to experience our hospitality</p>
+                
+                <div class="hours-card">
+                    <div class="hours-table">
+                        <div class="hours-row closed">
+                            <span class="hours-day">Monday</span>
+                            <span class="hours-time">Closed</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-day">Tuesday</span>
+                            <span class="hours-time">4:00 PM - 9:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-day">Wednesday</span>
+                            <span class="hours-time">4:00 PM - 9:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-day">Thursday</span>
+                            <span class="hours-time">4:00 PM - 9:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-day">Friday</span>
+                            <span class="hours-time">4:00 PM - 10:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-day">Saturday</span>
+                            <span class="hours-time">11:00 AM - 10:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="hours-day">Sunday</span>
+                            <span class="hours-time">11:00 AM - 3:00 PM</span>
+                        </div>
+                    </div>
+                    
+                    <div class="holiday-notice">
+                        <strong>Note:</strong> Holiday hours may vary. Follow us on social media or call ahead for the latest updates.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. LOCATION AND CONTACT -->
+        <section class="contact" id="contact">
+            <div class="section-container reveal">
+                <h2 class="section-title">Location & Contact</h2>
+                <p class="section-subtitle">We are nestled in the heart of Richmond's historic Fan District</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-details">
+                        <!-- Address -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                                </svg>
+                            </div>
+                            <div class="contact-item-info">
+                                <h3>Visit Us</h3>
+                                <p>2148 West Main Street<br>Richmond, VA 23220</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Phone -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.824-1.802-5.127-4.11-6.929-6.927l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.865a2.25 2.25 0 00-2.25 2.25v1.372z" />
+                                </svg>
+                            </div>
+                            <div class="contact-item-info">
+                                <h3>Call Us</h3>
+                                <p><a href="tel:8045551847">(804) 555-1847</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                                </svg>
+                            </div>
+                            <div class="contact-item-info">
+                                <h3>Email Us</h3>
+                                <p><a href="mailto:hello@willowandsmokekitchen.com">hello@willowandsmokekitchen.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Interactive Real Google Map -->
+                    <div class="map-container">
+                        <iframe 
+                            src="https://maps.google.com/maps?q=2148%20West%20Main%20Street,%20Richmond,%20VA%2023220&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; flex-grow:1; min-height: 280px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Willow & Smoke Kitchen Google Maps Location">
+                        </iframe>
+                        <div class="map-bar">
+                            <div class="map-text">
+                                <h4>Willow & Smoke Kitchen</h4>
+                                <p>2148 West Main Street, Richmond, VA</p>
+                            </div>
+                            <a href="https://www.google.com/maps/place/Willow+%26+Smoke+Kitchen" class="btn btn-primary btn-outline" target="_blank" rel="noopener noreferrer" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;" id="btnGetDirections">Directions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. PARKING SECTION -->
+        <section class="parking" id="parking">
+            <div class="section-container reveal">
+                <div class="parking-box">
+                    <div class="parking-icon">P</div>
+                    <div class="parking-info">
+                        <h3>Parking Information</h3>
+                        <p>Street parking is available along West Main Street and nearby side streets. A small public parking lot is located within a short walk of the restaurant. Rideshare drop-off is available at the front entrance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 10. FOOTER -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo-row">
+                    <span class="footer-logo-text">Willow & Smoke</span>
+                </div>
+                <p class="footer-desc">Modern Southern comfort food with wood-fired meats, seasonal sides, and craft cocktails in Richmond, Virginia.</p>
+                <div class="footer-socials">
+                    <a href="https://www.google.com/maps/place/Willow+%26+Smoke+Kitchen" class="social-btn" aria-label="Find us on Google Maps" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12.24 10.285V14.4h6.887c-.648 2.41-2.519 4.13-5.136 4.13A5.71 5.71 0 0 1 8.24 12.8a5.71 5.71 0 0 1 5.751-5.73 5.51 5.51 0 0 1 3.93 1.625l3.053-3.05A9.87 9.87 0 0 0 13.99 2c-5.523 0-10 4.477-10 10s4.477 10 10 10c5.3 0 9.8-3.8 9.8-9.8a9.4 9.4 0 0 0-.15-2l-.15-.715H12.24z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.yelp.com/biz/willow-and-smoke-kitchen-richmond" class="social-btn" aria-label="Find us on Yelp" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12.186 13.568l-1.393 4.298c-.161.498-.737.74-1.21.503l-3.328-1.666a.933.933 0 0 1-.413-1.168l1.411-4.293a.243.243 0 0 0-.166-.31l-4.288-1.423c-.496-.164-.73-.74-.483-1.21l1.737-3.292a.933.933 0 0 1 1.184-.378l4.283 1.43c.125.042.261-.045.263-.178l.092-4.51c.01-.523.518-.916 1.042-.816l3.688.704a.933.933 0 0 1 .746 1.002l-.1 4.51a.243.243 0 0 0 .341.222l4.13-1.815c.48-.21 1.048.01 1.185.503l.965 3.63a.933.933 0 0 1-.502 1.14l-4.135 1.802a.243.243 0 0 0-.083.35l2.673 3.655c.31.425.178 1.026-.264 1.258l-3.11 1.637a.933.933 0 0 1-1.23-.277l-2.677-3.655a.243.243 0 0 0-.342-.057z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-links-col">
+                <h4>Explore</h4>
+                <ul class="footer-links-list">
+                    <li><a href="#hero" class="footer-link">Home</a></li>
+                    <li><a href="#about" class="footer-link">Our Story</a></li>
+                    <li><a href="#menu" class="footer-link">Menu PDF</a></li>
+                    <li><a href="#gallery" class="footer-link">Food Gallery</a></li>
+                    <li><a href="#specials" class="footer-link">Weekly Specials</a></li>
+                    <li><a href="#reservations" class="footer-link">Reserve a Table</a></li>
+                    <li><a href="#hours" class="footer-link">Hours & Location</a></li>
+                    <li><a href="#parking" class="footer-link">Parking</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links-col">
+                <h4>Get in Touch</h4>
+                <div class="footer-contact-list">
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📍</span>
+                        <span class="footer-contact-text">2148 West Main Street<br>Richmond, VA 23220</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">📞</span>
+                        <span class="footer-contact-text"><a href="tel:8045551847">(804) 555-1847</a></span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">✉️</span>
+                        <span class="footer-contact-text"><a href="mailto:hello@willowandsmokekitchen.com">hello@willowandsmokekitchen.com</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="footer-copyright">&copy; 2026 Willow & Smoke Kitchen. All Rights Reserved.</p>
+            <p class="footer-credit">Handcrafted for Southern Comfort</p>
+        </div>
+    </footer>
+
+    <!-- PDF EMBED MODAL -->
+    <div class="pdf-modal" id="pdfModal">
+        <div class="pdf-modal-container">
+            <div class="pdf-modal-header">
+                <h3>Willow & Smoke Kitchen - Menu</h3>
+                <span class="pdf-modal-close">&times;</span>
+            </div>
+            <iframe class="pdf-modal-body" src="menu/willow-smoke-sample-menu.pdf" title="Willow & Smoke Kitchen Menu PDF"></iframe>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
