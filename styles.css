@@ -551,11 +551,14 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.8rem;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
     .gallery-grid {
         grid-template-columns: 1fr;
+        max-width: 420px;
     }
 }
 
